@@ -1,0 +1,24 @@
+
+@keyframes textLoop {
+    0% {
+        transform: translateY(100%) rotate(-90deg); 
+    }
+    100% {
+        transform: translateY(-300%) rotate(-90deg); 
+    }
+}
+
+.loop-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .loop-text {
+    background-color: blueviolet;
+    font-size: 100px;
+    font-family: gilroy;
+    white-space: nowrap;
+    animation: textLoop 2s linear infinite;
+  }
+  

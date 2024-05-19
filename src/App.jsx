@@ -5,6 +5,7 @@ import DetailsCard from "./components/ui/components/DetailsCard";
 import PhotoSet from "./components/ui/components/PhotoSet";
 import {CoroselContainer} from "./components/ui/components/CoroselContainer";
 import Slider from "./components/ui/components/Slider";
+import "./App.css"
 function App() {
   return (
     <div className="container p-6 bg-gray-800 h-screen w-full flex">
@@ -23,6 +24,9 @@ function App() {
         </div>
       </div>
       <div className="rightSection basis-4/12 flex justify-center items-center flex-col">
+      <div className="loop-container">
+        <h1 className="loop-text">Your Text Goes Here</h1>
+      </div>
         <DetailsCard />
         <PhotoSet />
       </div>
