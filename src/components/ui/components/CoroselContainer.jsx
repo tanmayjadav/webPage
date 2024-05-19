@@ -67,7 +67,7 @@ export const CoroselContainer = () => {
           loop: true,
         }}
         className="w-screen max-w-3xl "
-        style={{ maxWidth: '70vw' }}
+        style={{ maxWidth: '68vw' }}
         onSlideChange={handleSlideChange}
       >
         <CarouselContent className="">
@@ -77,10 +77,10 @@ export const CoroselContainer = () => {
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className="h-[520px] object-cover rounded-xl w-screen"
+                  className="h-[450px] object-cover rounded-lg w-screen"
                 />
 
-                <div className="absolute inset-0 rounded-xl bg-white bg-opacity-10 flex flex-col justify-end items-start gap-5 pl-8 pb-10">
+                <div className="absolute inset-0 rounded-lg bg-white bg-opacity-10 flex flex-col justify-end items-start gap-5 pl-8 pb-10">
                   <span className="text-white text-2xl font-bold">
                     {image.caption}
                   </span>
