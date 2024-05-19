@@ -1,22 +1,23 @@
 
 @keyframes textLoop {
     0% {
-        transform: translateY(100%) rotate(-90deg); 
+        transform: translateY(0%) rotate(-90deg); 
     }
     100% {
-        transform: translateY(-300%) rotate(-90deg); 
+        transform: translateY(200%) rotate(-90deg); 
     }
 }
-
-.loop-container {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-  }
-  
-  .loop-text {
-    background-color: blueviolet;
-    font-size: 100px;
+.loop-container{
+    /* position: absolute; */
+    /* top:0; */
+    /* left:0; */
+    /* z-index: 30; */
+}
+.loop-text {
+    /* overflow: hidden; */
+    background-color: rgb(197, 142, 249);
+    font-size: 28px;
+    line-height: 60px;
     font-family: gilroy;
     white-space: nowrap;
     animation: textLoop 2s linear infinite;
